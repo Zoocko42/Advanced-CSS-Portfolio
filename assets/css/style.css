@@ -143,6 +143,11 @@ section {
     filter: none;
 }
 
+.workbox figcaption a, .workbox figcaption a:visited {
+    color: rgb(35, 37, 37);
+    text-decoration: none;
+}
+
 #workfig1 {
     top: 85%;
 }

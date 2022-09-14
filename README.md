@@ -16,7 +16,7 @@ https://zoocko42.github.io/Advanced-CSS-Portfolio/
 ## Usage
 
 This site should display a mock-up of a portfolio site; users can click on items on the navbar at the top to quickly go to the site sections (as well as quickly go to the Linkedin page). When they mouse over the icons
-in the "Work" section the icons un-blur. Users can also access the links on the bottom of the page to be taken to the corresponding sites. 
+in the "Work" section the icons un-blur. Clicking on the name of the project of the image will take the user to a corresponding website (note: all projects save for "FATE VC Sheets," are placeholders). Users can also access the links on the bottom of the page to be taken to the corresponding sites. 
 
 ## Screenshots
 
