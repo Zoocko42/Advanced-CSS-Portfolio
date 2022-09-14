@@ -1,0 +1,201 @@
+/* These are properties for the general page. */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a, a:visited {
+    color: rgb(122, 211, 211);
+}
+
+
+body {
+    background-color: white;
+}
+/* This part handles the header element */
+header {
+    background-color: rgb(35, 37, 37);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+header h1 {
+    display: flex;
+    height: 20%;
+    width: 30%;
+    font-size: 45px;
+}
+
+header nav{
+    display: flex;
+    margin-right: 7%;
+    font-size: 25px;
+    color: (122, 211, 211);
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav ul li{
+    flex-direction: row;
+    display: inline;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+/* This modifies the background image near the top of the site and the text that displays over it. */
+
+#mockupbackground {
+    display: flex;
+    width: 100%;
+}
+
+#mockupbackground img {
+    width: 100%;
+    height: 200px;
+}
+
+#mockuptext {
+    position: absolute;
+    left: 60%;
+    top: 35%;
+}
+
+/* This class affects all similar "Blue Box Texts" */
+.blueboxtext {
+    background-color: rgb(122, 211, 211);
+    color: rgb(35, 37, 37);
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+/* These sections modify the work boxes. */
+.workbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+    margin: .5% 0 .5% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    filter: blur(2px);
+}
+
+.workbox:hover {
+    filter: none;
+}
+
+#workrows {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-evenly;
+    
+    
+}
+
+#work1 {
+    background-image: url("../photos/pexels-fox-213399.jpg");
+    background-color: darkslategray;
+    width: 86.5%;
+    border: 5px solid rgb(122, 211, 211);
+    height: 500px;
+}
+
+#work2 {
+    background-image: url("../photos/pexels-jéshoots-3584.jpg");
+    background-color: darkorange;
+    width: 40%;
+    border: 5px solid rgb(122, 211, 211);
+    height: 250px;
+}
+
+#work3 {
+    background-image: url("../photos/pexels-cottonbro-6195464.jpg");
+    background-color: red;
+    width: 40%;
+    border: 5px solid rgb(122, 211, 211);
+    height: 250px;
+}
+
+#work4 {
+    background-image: url("../photos/pexels-caio-59884.jpg");
+    background-color: darkslateblue;
+    width: 40%;
+    border: 5px solid rgb(122, 211, 211);
+    height: 250px;
+}
+
+#work5 {
+    background-image: url("../photos/pexels-obregonia-d-toretto-918281.jpg");
+    background-color: black;
+    width: 40%;
+    border: 5px solid rgb(122, 211, 211);
+    height: 250px;
+}
+
+.workbox figcaption {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    filter: none;
+}
+
+#workfig1 {
+    top: 85%;
+}
+
+#workfig2, #workfig3, #workfig4, #workfig5 {
+    top: 70%;
+}
+/* This section changes the headers that show up on the left side of the screen. */
+section h1{
+    display: flex;
+    border-right: 2px solid #0069a5;
+    padding-right: 70px;
+    width: 12%;
+    color: #0069a5;
+    margin-right: 20px;
+    margin-left: 100px;
+    font-size: xx-large;
+}
+
+#aboutme p {
+    display: flex;
+    width: 80%;
+    font-size: larger;
+    margin-left: 5%;
+    color: #014e7a;
+}
+
+#contactme {
+    margin-bottom: 50px;
+}
+
+#contactme ul{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#contactme li {
+    display: flex;
+    list-style: none;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: larger;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+#contactme a, #contactme a:visited {
+    color: rgb(35, 37, 37)
+}
